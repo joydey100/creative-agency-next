@@ -4,7 +4,7 @@ import { useSelector } from "react-redux";
 import DashComp from "../../components/DashComp";
 import { WithProtected } from "../../components/WithProtected";
 
-const index = () => {
+const Index = () => {
   const auth = useSelector((state) => state.auth);
   const { email } = auth?.user;
   const [orders, setOrders] = useState([]);
@@ -60,4 +60,4 @@ const index = () => {
   );
 };
 
-export default WithProtected(index);
+export default WithProtected(Index);

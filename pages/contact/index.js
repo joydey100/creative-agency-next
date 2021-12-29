@@ -3,7 +3,7 @@ import Footer from "../../components/Footer";
 import Header from "../../components/Header";
 import Connect from "../../components/Connect";
 
-const index = () => {
+const Index = () => {
   return (
     <>
       <Header />
@@ -13,4 +13,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

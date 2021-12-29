@@ -15,7 +15,7 @@ export const getStaticProps = async () => {
   };
 };
 
-const index = ({ data }) => {
+const Index = ({ data }) => {
   return (
     <>
       <Header />
@@ -48,4 +48,4 @@ const index = ({ data }) => {
   );
 };
 
-export default index;
+export default Index;

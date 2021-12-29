@@ -8,7 +8,7 @@ import registerImage from "../../public/register.gif";
 import { authRegister } from "../../redux/slices/authSlice";
 import { authGoogleLogin } from "../../redux/slices/authSlice";
 
-const index = () => {
+const Index = () => {
   const dispatch = useDispatch();
   const auth = useSelector((state) => state.auth);
 
@@ -134,4 +134,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

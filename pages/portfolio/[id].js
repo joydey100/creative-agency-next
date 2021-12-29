@@ -13,7 +13,7 @@ const SingleItem = () => {
     fetch(`http://localhost:5000/portfolio/${id}`)
       .then((res) => res.json())
       .then((data) => setData(data[0]));
-  });
+  }, []);
 
   return (
     <>

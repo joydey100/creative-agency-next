@@ -14,7 +14,7 @@ export const getStaticProps = async () => {
   };
 };
 
-const index = ({ data }) => {
+const Index = ({ data }) => {
   console.log(data);
   return (
     <>
@@ -37,4 +37,4 @@ const index = ({ data }) => {
   );
 };
 
-export default index;
+export default Index;

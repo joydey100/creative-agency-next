@@ -7,7 +7,7 @@ import { authGoogleLogin, authLoginEmail } from "../../redux/slices/authSlice";
 import Header from "../../components/Header";
 import Footer from "../../components/Footer";
 
-const index = () => {
+const Index = () => {
   const dispatch = useDispatch();
   const auth = useSelector((state) => state.auth);
 
@@ -109,4 +109,4 @@ const index = () => {
   );
 };
 
-export default index;
+export default Index;

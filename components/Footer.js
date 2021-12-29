@@ -5,8 +5,6 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import Link from "next/link";
 import logo from "../public/logos/logo.png";
 
-const SocialIcon = React.forwardRef(() => {});
-
 const Footer = () => {
   return (
     <footer
@@ -49,5 +47,7 @@ const Footer = () => {
     </footer>
   );
 };
+
+Footer.displayName = "Footer";
 
 export default Footer;

@@ -42,8 +42,7 @@ const Index = () => {
             <Col md={6}>
               <div className="login-content">
                 <h2 className="mb-4" style={{ fontWeight: "600" }}>
-                  {" "}
-                  Login{" "}
+                  Login
                 </h2>
                 <Form onSubmit={handleSubmit}>
                   <Form.Group className="mb-3">
@@ -87,14 +86,13 @@ const Index = () => {
                   className="d-block w-100 mx-auto py-3"
                   onClick={() => dispatch(authGoogleLogin())}
                 >
-                  {" "}
                   <img
                     src="https://cdn.cdnlogo.com/logos/g/35/google-icon.svg"
                     className="google-icon me-2"
                     style={{ width: "40px" }}
                     alt="google-icon"
-                  />{" "}
-                  Login With Google{" "}
+                  />
+                  Login With Google
                 </button>
               </div>
             </Col>

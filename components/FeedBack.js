@@ -24,8 +24,7 @@ const FeedBack = () => {
   return (
     <section>
       <h2 className="text-center my-5 title">
-        {" "}
-        Client's <span className="violate">Feedback </span>{" "}
+        Client's <span className="violate">Feedback </span>
       </h2>
       <Container>
         <Row className="g-4">

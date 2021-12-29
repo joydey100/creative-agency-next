@@ -1,0 +1,24 @@
+/* Dashboard Left Navbar */
+.wrapper {
+  width: 300px;
+  background-color: #ddd;
+  position: fixed;
+  left: 0;
+  top: 0;
+  height: 100%;
+}
+.logo {
+  width: 200px;
+  margin: 40px auto;
+}
+.menu_bar {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+.menu_bar a {
+  padding: 15px;
+}
+.content {
+  margin-left: 300px;
+}

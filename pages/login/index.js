@@ -77,7 +77,7 @@ const Index = () => {
                 <br />
                 <Link href="/register">
                   <a className="text-center d-block">
-                    Don't Have an account? Please Register
+                    Dont Have an account? Please Register
                   </a>
                 </Link>
                 <br />

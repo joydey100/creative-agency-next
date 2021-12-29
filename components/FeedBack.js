@@ -1,17 +1,6 @@
 import { useEffect, useState } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 
-// export const getStaticProps = async () => {
-//   const res = await fetch("http://localhost:5000/reviewlist");
-//   const data = await res.json();
-
-//   return {
-//     props: {
-//       data,
-//     },
-//   };
-// };
-
 const FeedBack = () => {
   const [data, setData] = useState([]);
 

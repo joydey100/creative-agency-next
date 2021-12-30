@@ -8,7 +8,7 @@ export const WithProtected = (Component) => {
     const router = useRouter();
 
     if (!email) {
-      router.replace("/login");
+      router.push("/login");
       return <h2 className="text-center mt-5 pt-5"> Loading... </h2>;
     }
     return <Component {...props} />;
